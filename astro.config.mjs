@@ -6,5 +6,6 @@ import robotsTxt from "astro-robots-txt"
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), robotsTxt()],
-  site: 'https://betoc2.github.io/Portfolio/'
+  site: 'https://betoc2.github.io/Portfolio/',
+  base: '/Portfolio/',
 })
